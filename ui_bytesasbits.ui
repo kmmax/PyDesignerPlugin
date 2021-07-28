@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>213</width>
-    <height>369</height>
+    <height>340</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,16 +16,6 @@
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <layout class="QGridLayout" name="gridLayout">
-     <item row="4" column="1">
-      <widget class="QLabel" name="label5">
-       <property name="styleSheet">
-        <string notr="true">font: 700 11pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Bit4</string>
-       </property>
-      </widget>
-     </item>
      <item row="0" column="0">
       <widget class="Led" name="led0">
        <property name="minimumSize">
@@ -45,18 +35,47 @@
        </property>
       </widget>
      </item>
-     <item row="5" column="1">
-      <widget class="QLabel" name="label6">
+     <item row="0" column="1">
+      <widget class="QLabel" name="label1">
        <property name="styleSheet">
         <string notr="true">font: 700 11pt &quot;Segoe UI&quot;;</string>
        </property>
        <property name="text">
-        <string>Bit5</string>
+        <string>Bit0</string>
        </property>
       </widget>
      </item>
      <item row="1" column="0">
       <widget class="Led" name="led1">
+       <property name="minimumSize">
+        <size>
+         <width>31</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>31</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="address" stdset="0">
+        <string>'0'</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label2">
+       <property name="styleSheet">
+        <string notr="true">font: 700 11pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Bit1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="Led" name="led2">
        <property name="minimumSize">
         <size>
          <width>31</width>
@@ -84,46 +103,8 @@
        </property>
       </widget>
      </item>
-     <item row="4" column="0">
-      <widget class="Led" name="led4">
-       <property name="minimumSize">
-        <size>
-         <width>31</width>
-         <height>31</height>
-        </size>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>31</width>
-         <height>31</height>
-        </size>
-       </property>
-       <property name="address" stdset="0">
-        <string>'0'</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="0">
-      <widget class="Led" name="led5">
-       <property name="minimumSize">
-        <size>
-         <width>31</width>
-         <height>31</height>
-        </size>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>31</width>
-         <height>31</height>
-        </size>
-       </property>
-       <property name="address" stdset="0">
-        <string>'0'</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0">
-      <widget class="Led" name="led2">
+     <item row="3" column="0">
+      <widget class="Led" name="led3">
        <property name="minimumSize">
         <size>
          <width>31</width>
@@ -148,6 +129,64 @@
        </property>
        <property name="text">
         <string>Bit3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="Led" name="led4">
+       <property name="minimumSize">
+        <size>
+         <width>31</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>31</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="address" stdset="0">
+        <string>'0'</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="label5">
+       <property name="styleSheet">
+        <string notr="true">font: 700 11pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Bit4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="Led" name="led5">
+       <property name="minimumSize">
+        <size>
+         <width>31</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>31</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="address" stdset="0">
+        <string>'0'</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLabel" name="label6">
+       <property name="styleSheet">
+        <string notr="true">font: 700 11pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Bit5</string>
        </property>
       </widget>
      </item>
@@ -180,38 +219,8 @@
        </property>
       </widget>
      </item>
-     <item row="0" column="1">
-      <widget class="QLabel" name="label1">
-       <property name="styleSheet">
-        <string notr="true">font: 700 11pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Bit0</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="1">
-      <widget class="QLabel" name="label2">
-       <property name="styleSheet">
-        <string notr="true">font: 700 11pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Bit1</string>
-       </property>
-      </widget>
-     </item>
-     <item row="7" column="1">
-      <widget class="QDialogButtonBox" name="buttonBox">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="standardButtons">
-        <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="0">
-      <widget class="Led" name="led3">
+     <item row="7" column="0">
+      <widget class="Led" name="led7">
        <property name="minimumSize">
         <size>
          <width>31</width>
@@ -226,6 +235,26 @@
        </property>
        <property name="address" stdset="0">
         <string>'0'</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLabel" name="label8">
+       <property name="styleSheet">
+        <string notr="true">font: 700 11pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Bit7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QDialogButtonBox" name="buttonBox">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
        </property>
       </widget>
      </item>

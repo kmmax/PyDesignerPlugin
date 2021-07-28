@@ -14,7 +14,7 @@ $ source env_root/Script/activate
 + create environment variable: **PYSIDE_DESIGNER_PLUGINS** = **C:\PyQtPlugins\PySide6Designer**
 
 #### Development
-1. Copy plugins (from **plugins** in to **C:\PyQtPlugins\PySide6Designer\** folder)
+1. Copy plugins (from **plugins** in to **${PYSIDE_DESIGNER_PLUGINS}** folder)
 2. Copy **led.py** widget from **plugin\** folder to root folder (when all *.py files located)
 3. Execute designer (**you need pyside6-designer!!!**)
 ~~~bash
@@ -26,7 +26,7 @@ $ source env_root/Script/activate
 3. Convert ***.ui** file to ***.py** file
 ~~~bash
 $ source env_root/Script/activate
-(env_root)$ pyside6-uic ui_byteasbits.ui -o ui_byteasbits.py
+(env_root)$ pyside6-uic.exe ui_bytesasbits.ui -o ui_bytesasbits.py
 ~~~
 
 
@@ -34,7 +34,7 @@ $ source env_root/Script/activate
 ## How to build application
 ~~~bash
 $ source env_root/Script/activate
+(env_root)$ python setup.py bdist_msi
 (env_root)$ python setup.py build
-(env_root)$ cp green_led.png red_led.png ./build/exe.win-amd64-3.8/
 (env_root)$ deactivate
 ~~~

@@ -19,7 +19,7 @@ class Ui_BytesAsBits(object):
     def setupUi(self, BytesAsBits):
         if not BytesAsBits.objectName():
             BytesAsBits.setObjectName(u"BytesAsBits")
-        BytesAsBits.resize(213, 369)
+        BytesAsBits.resize(213, 340)
         self.verticalLayout = QVBoxLayout(BytesAsBits)
         self.verticalLayout.setObjectName(u"verticalLayout")
         self.gridLayout = QGridLayout()
