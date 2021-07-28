@@ -11,9 +11,9 @@ executables = [
         "bytesasbits.py",
         icon="icon.ico",
         base=base,
-        targetName="ByteAsBits.exe",
-        shortcutName='ByteAsBits Application',
-        shortcutDir='ProgramMenuFolder',
+        target_name="ByteAsBits.exe",
+        shortcut_name='ByteAsBits Application',
+        shortcut_dir='ProgramMenuFolder',
     )
 ]
 
@@ -33,15 +33,11 @@ bdist_msi_options = {
 
 options = {
     'bdist_msi': bdist_msi_options,
-    # 'build_exe': {
-    #     'include_msvcr': True,
-    #     "include_files": include_files
-    # }
     'build_exe': build_exe_options
 }
 
 setup(name="ByteAsBits",
-      version="0.1",
+      version="0.0.1",
       description="Example of custom PySide6 plugin for designer",
       executables=executables,
       options=options,
