@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-
-from PySide6 import QtCore, QtWidgets
 import sys
 
-import ui_bytesasbits
+from PySide6 import QtCore, QtWidgets
+
 from ui_bytesasbits import Ui_BytesAsBits
 
 
 class BytesAsBits(QtWidgets.QDialog):
+    """This class represents simple form is created by PySide6-Designer"""
     def __init__(self, parent=None):
         QtWidgets.QDialog.__init__(self, parent)
         self.ui = Ui_BytesAsBits()

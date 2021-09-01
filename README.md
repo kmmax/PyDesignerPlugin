@@ -22,14 +22,13 @@ $ source env_root/Script/activate
 (env_root)$ env_root/Scripts/pyside6-designer.exe (maybe you need switch to env_root)
 ~~~
 ![application](doc/readme/screens/screen2.png)
-2. Save as **ui_byteasbits.ui**
-3. Convert ***.ui** file to ***.py** file
+4. Save as **ui_byteasbits.ui**
+
+5. Convert ***.ui** file to ***.py** file
 ~~~bash
 $ source env_root/Script/activate
 (env_root)$ pyside6-uic.exe ui_bytesasbits.ui -o ui_bytesasbits.py
 ~~~
-
-
 
 ## How to build application
 ~~~bash
