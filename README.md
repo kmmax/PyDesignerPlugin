@@ -1,4 +1,4 @@
-# PyDesignerPlagin
+# PyDesignerPlugin
 # Custom widget for Designer (PySide6)
 ![application](doc/readme/screens/screen1.png)
 ## How to use
